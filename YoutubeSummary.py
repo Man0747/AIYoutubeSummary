@@ -6,7 +6,7 @@ from langchain_community.document_loaders import YoutubeLoader
 
 load_dotenv()
 
-genai.configure(api_key="APIKEY")
+genai.configure(api_key="AIzaSyAlcc1wRi6O0XVJ2R8OryYjmHQsmFUajQc")
 model = genai.GenerativeModel("gemini-1.0-pro")
 
 prompt = """You are a youtube video summarizer. You will be taking the transcript text and 
